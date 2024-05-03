@@ -270,4 +270,13 @@ body{
     background-color: var(--color-2);
 }
 
+.imgs{
+    display: flex;
+    flex-direction: row;
+    gap:0.5vw
+}
+
+.imgs img{
+    height:2vw
+}
 
