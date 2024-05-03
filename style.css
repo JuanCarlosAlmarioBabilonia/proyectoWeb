@@ -154,6 +154,25 @@ body{
     border-bottom: 1px solid var(--color-2);
 }
 
+.cont6{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    color: var(--color-1);
+    padding-left: 15vw;
+    gap:5vw
+}
+
+.aba h2{
+    padding-bottom: 1vw;
+    font-size: 1.8vw;
+}
+
+.aba p{
+    font-size: 1.2vw;
+}
+
 .right img{
     height:31vw;
     width:30vw;
@@ -188,6 +207,8 @@ body{
 }
 .box{
     background-color: var(--color-4);
+    display:flex;
+    flex-direction: column;
     padding-top:1vw;
     text-align: center;
     padding-bottom: 1vw;
@@ -242,4 +263,11 @@ body{
 .cuadro h1{
     font-size: 4vw;
 }
+
+.x img{
+    height:1.5vw;
+    margin-left: 18vw;
+    background-color: var(--color-2);
+}
+
 
