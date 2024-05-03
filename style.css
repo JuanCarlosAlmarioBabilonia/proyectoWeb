@@ -14,7 +14,7 @@ body{
 .header{
     display: flex;
     flex-direction: row;
-    gap:57vw;
+    gap:56vw;
 }
 
 .header h1{
@@ -52,6 +52,29 @@ body{
     color: var(--color-1)
 }
 
+
+.left1{
+    margin-left: 12vw;
+    margin-top: 3vh;
+}
+
+
+.right1 h1{
+    font-size: 3.4vw;
+    color: var(--color-1)
+}
+
+.right1 p{
+    font-size: 1.7vw;
+    margin-top: 1vw;
+    color: var(--color-1)
+}
+
+.right1{
+    margin-left: 4vw;
+    margin-top: 2vw;
+}
+
 .boton{
     margin-top: 3vh;
     text-decoration: none;
@@ -67,11 +90,21 @@ body{
 .cont{
     display: flex;
     flex-direction: row;
-    padding-bottom: 10vh;
+    padding-bottom: 20vh;
 }
 
 .right img{
-    height:30vw;
+    height:31vw;
     margin-top: 6vh;
-    margin-left: 4vw;
+    margin-left: 3vw;
+}
+
+.left1 img{
+    height:38vw;
+    margin-top: -5vh;
+}
+
+.right1 small{
+    color: var(--color-2);
+    font-size: 1.6vw;
 }
